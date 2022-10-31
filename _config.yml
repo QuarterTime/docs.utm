@@ -1,0 +1,50 @@
+title: UTM 说明文档
+description: UTM 虚拟机说明文档
+baseurl: ""
+url: ""
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs
+
+logo: "/assets/images/logo.png"
+
+heading_anchors: true
+
+nav_external_links:
+  - title: 适用于 macOS 的 UTM
+    url: https://mac.utm.wanjiongming.com
+  - title: 适用于 iOS 的 UTM
+    url: https://utm.wanjiongming.com
+  - title: Discord
+    url: https://discord.gg/YNgXuTA4
+  - title: GitHub
+    url: https://github.com/QuarterTime/UTM-Chinese
+
+gh_edit_link: true
+gh_edit_link_text: "在 Github 上编辑此页面"
+gh_edit_repository: "https://github.com/QuarterTime/docs.utm"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
